@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect("localhost","root", "", "menufi");
+$conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
 $no_of_coupons = array(
     "January" => 0,
     "February" => 0,

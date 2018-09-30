@@ -1,5 +1,5 @@
 <?php 
-      $conn = mysqli_connect("localhost","root", "", "menufi");
+      $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
       $peak_day = array(
           'Sunday'=>0,
           'Monday'=>0,

@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $sql2 = "SELECT * FROM sales WHERE Order_id='$id'";
     $res = $conn -> query($sql2);
     $row = $res -> fetch_assoc();

@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect("localhost","root", "", "menufi");
+	$conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
 	$start_date = date('Y-m-d');
 	$end_date = date('Y-m-d',strtotime(date('Y-m-d').'+1 day'));
 	//echo $start_date;

@@ -1,5 +1,5 @@
 <?php 
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     
 ?>
 

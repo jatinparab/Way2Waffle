@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root", "", "menufi");
+$conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
 $sql = "SELECT * FROM assetCategories";
 $res = $conn -> query($sql);
 

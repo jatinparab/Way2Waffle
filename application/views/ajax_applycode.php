@@ -1,7 +1,7 @@
 <?php 
 
 	
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $sql = "SELECT * FROM coupons WHERE c_code='$code'";
 	$res = $conn -> query($sql);
     $valid = false;

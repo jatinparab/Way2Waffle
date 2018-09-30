@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect("localhost","root", "", "menufi");
+$conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $orders = array('Grocery'=>0,'General'=>0,'Salary'=>0);
 
     $sql = "SELECT * FROM expenses";

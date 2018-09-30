@@ -1,5 +1,5 @@
 <?php 
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $sql = "UPDATE order_status SET seen='1',seen_timestamp=now() WHERE Order_id='$id'";
     $res = $conn -> query($sql);
     if(isset($res)){

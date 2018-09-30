@@ -2829,7 +2829,7 @@ public function addmenu(){
     if(isset($_FILES['img']['name'])){
         $image = $_FILES['img']['name'];
         $data1['img']=$image;
-        $conn = mysqli_connect("localhost","root", "", "menufi");
+        $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
         $cwd= getcwd();
         $sql = "UPDATE menu SET Image='$image' WHERE Name='$n'";
         $res = $conn -> query($sql);

@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $s = "ALTER TABLE customer_order DROP FOREIGN KEY Menu_Constraint";
     $conn -> query($s);
     $sql2 = "SELECT * FROM categories WHERE id='$id'";

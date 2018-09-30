@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost","root", "", "menufi");
+    $conn = mysqli_connect("localhost","root", "menufi@123", "menufi");
     $date = date('Y-m-d h:i:sa');
     $sql = "INSERT INTO opening_amount (opening_amount,added_date) VALUES ('$amt','$date')";
     if ($conn->query($sql) === TRUE) {
